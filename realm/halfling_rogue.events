@@ -2,3 +2,4 @@ change_title "" "Halfling Rogue"
 gain_asset Halfling modifier
 gain_asset Rogue modifier
 take_note "Skilled in stealth, detection, and disabling traps, the rogue often serves as the party's scout. They are also usually responsible for locks, traps, and often have high Dexterity."
+change_portrait "" https://cdn.discordapp.com/attachments/1127886037423755315/1169111488066224221/willmbaker_Warhammer_Figurine_Halfling_Rogue_6fa825a4-8978-46eb-bc4f-3fae07f9731a.png?ex=655436eb&is=6541c1eb&hm=5432ac090d18252acea74ce905da9c29763a86e5aac04e30d3bdca76c73a34c7&

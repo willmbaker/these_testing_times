@@ -2,3 +2,4 @@ change_title "" "Human Fighter"
 gain_asset Human modifier
 gain_asset Fighter modifier
 take_note "The classic frontline warrior, often serving as the party's main damage dealer and taking the brunt of enemy attacks. They are typically characterized by high Strength and Constitution scores."
+change_portrait "" https://media.discordapp.net/attachments/1127886037423755315/1169110692108972052/willmbaker_Warhammer_Figurine_Human_Fighter_ee7ac1fe-7bf6-44d1-9b15-db5fddec122d.png?ex=6554362e&is=6541c12e&hm=39ce64c84059ccc324aae761f384a9662f907bc0121585f524920aacc0330826&=&width=1116&height=1116

@@ -2,3 +2,4 @@ change_title "" "Elven Wizard"
 gain_asset Elf modifier
 gain_asset Wizard modifier
 take_note "The primary spellcaster of the group, providing a mix of offensive spells in combat, utility spells outside of combat, and high-level knowledge skills. A wizard usually has high Intelligence."
+change_portrait "" https://cdn.discordapp.com/attachments/1127886037423755315/1169111062285664328/willmbaker_Warhammer_Figurine_Elven_Wizard_9d5cf342-322b-4a6d-922c-142a8d8635d3.png?ex=65543686&is=6541c186&hm=68e316a24ff3009ccc0a257f071eb274ae962cc4dd669f0dc68d5713d80ebfe3&
