@@ -1,0 +1,97 @@
+{ 
+    "sprites":
+    {
+    },
+    
+    "tiles":
+    {
+    },
+
+    "materials":
+    {
+        "occluder":
+        {
+            "casting" : true,
+            "solid"   : false
+        }
+    },
+
+    "actors":
+    {
+        "torch":
+        {
+            "light": 
+            {
+                "radius": 70,
+                "colour": "#ff8200",
+                "flicker": 1.5
+            }
+        },
+
+        "lightning_bolt":
+        {
+            "sprite": "/content/tileset/effects/lightning_bolt.png",
+            "scenery": 600,
+            "light":
+            {
+                "radius"  : 100,
+                "colour"  : "#77f",
+                "flicker" : 10
+            }
+        },
+
+        "moonbeam":
+        {
+            "sprite": "/content/tileset/effects/moonbeam.png",
+            "light":
+            {
+                "radius" : 70,
+                "colour" : "#ffd",
+                "flicker" : 1
+            },
+            "scenery": 350
+        },
+
+        "hunger_of_hadar":
+        {
+            "sprite": "/content/tileset/effects/hunger_of_hadar.png",
+            "light":
+            {
+                "radius" : 70,
+                "colour" : "#f00",
+                "flicker" : 0.5
+            },
+            "scenery": 100
+        },
+
+        "ritual_pattern":
+        {
+            "sprite": "/content/tileset/effects/ritual_pattern.png",
+            "light":
+            {
+                "radius" : 170,
+                "colour" : "#f33",
+                "flicker" : 1.5
+            },
+            "scenery": 100
+        },
+
+        "sickening_radiance":
+        {
+            "sprite": "/content/tileset/effects/sickening_radiance.png",
+            "light":
+            {
+                "radius" : 170,
+                "colour" : "#6f8",
+                "flicker" : 2
+            },
+            "scenery": 100
+        },
+
+        "trigger":
+        {
+            "layer" : "gamemaster",
+            "controller" : "trigger"
+        }        
+    }
+}
