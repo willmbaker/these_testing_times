@@ -1,0 +1,4 @@
+change_title "" "Dwarven Cleric"
+gain_asset Dwarf modifier
+gain_asset Cleric modifier
+take_note "A versatile class providing both healing and additional spell support, as well as being capable in combat. Clerics serve as the group's main source of healing and often have high Wisdom."

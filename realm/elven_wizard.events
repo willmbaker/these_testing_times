@@ -1,0 +1,4 @@
+change_title "" "Elven Wizard"
+gain_asset Elf modifier
+gain_asset Wizard modifier
+take_note "The primary spellcaster of the group, providing a mix of offensive spells in combat, utility spells outside of combat, and high-level knowledge skills. A wizard usually has high Intelligence."

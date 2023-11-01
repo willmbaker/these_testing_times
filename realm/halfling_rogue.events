@@ -1,0 +1,4 @@
+change_title "" "Halfling Rogue"
+gain_asset Halfling modifier
+gain_asset Rogue modifier
+take_note "Skilled in stealth, detection, and disabling traps, the rogue often serves as the party's scout. They are also usually responsible for locks, traps, and often have high Dexterity."

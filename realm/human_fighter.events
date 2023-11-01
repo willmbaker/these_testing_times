@@ -1,0 +1,4 @@
+change_title "" "Human Fighter"
+gain_asset Human modifier
+gain_asset Fighter modifier
+take_note "The classic frontline warrior, often serving as the party's main damage dealer and taking the brunt of enemy attacks. They are typically characterized by high Strength and Constitution scores."
