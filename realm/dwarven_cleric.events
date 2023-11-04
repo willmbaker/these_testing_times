@@ -4,3 +4,35 @@ gain_asset Cleric modifier
 take_note "A versatile class providing both healing and additional spell support, as well as being capable in combat. Clerics serve as the group's main source of healing and often have high Wisdom."
 change_portrait "" https://cdn.discordapp.com/attachments/1127886037423755315/1169111179432566814/willmbaker_Warhammer_Figurine_Dwarven_Cleric_f021e88a-23c9-487a-af9b-181e18bdc92e.png?ex=655436a2&is=6541c1a2&hm=9ff1b28bdc398fb897665787c69d667e4e641cad45e8c79d05027d7ec6087d98&
 change_portrait https://cdn.discordapp.com/attachments/1127886037423755315/1169111179432566814/willmbaker_Warhammer_Figurine_Dwarven_Cleric_f021e88a-23c9-487a-af9b-181e18bdc92e.png?ex=655436a2&is=6541c1a2&hm=9ff1b28bdc398fb897665787c69d667e4e641cad45e8c79d05027d7ec6087d98& https://cdn.discordapp.com/attachments/1127886037423755315/1169115307122634763/willmbaker_Dwarf_Cleric_6396bade-32fb-4941-9d9f-66e8afea2ec8.png?ex=65543a7a&is=6541c57a&hm=45cca889096fceabc40401373fef8c3633a4c10c0313bcb0b93ff6509b362b67&
+change_attribute hit_points 8 9
+advance_asset insight 1
+advance_asset persuasion 1
+gain_asset Shield item
+gain_asset "Holy symbol" item
+gain_asset "Priest's pack" item
+gain_asset "Simple weapon" item
+gain_asset "Scale mail" item
+gain_asset Warhammer item
+advance_asset shield 1
+advance_asset scale_mail 1
+advance_asset warhammer 1
+advance_asset cleric 1 #      -- 1st Level
+gain_or_advance_asset "Divine Domain" modifier
+gain_or_advance_asset "Clerical Spellcasting" modifier
+ready_asset dwarf
+ready_asset cleric
+change_asset "Divine Domain" "Divine Domain (War)"
+gain_asset [Guidance] spell 0
+gain_asset "[Sacred Flame]" spell 0
+gain_asset [Thaumaturgy] spell 0
+gain_asset "[Cure Wounds]" spell 0
+gain_asset "[Inflict Wounds]" spell 0
+gain_attribute strength 4
+ready_asset warhammer
+ready_asset scale_mail
+ready_asset shield
+gain_attribute wisdom 5
+gain_attribute charisma 3
+gain_attribute dexterity 3
+gain_attribute constitution 2
+gain_attribute intelligence 1
