@@ -18,6 +18,66 @@
 
     "actors":
     {
+        "house1":
+        {
+            "sprite" : "/campaign/these_testing_times/content/house1.png",
+            "scenery" : 24
+        },
+
+        "house2":
+        {
+            "sprite" : "/campaign/these_testing_times/content/house2.png",
+            "scenery" : 24
+        },
+
+        "house3":
+        {
+            "sprite" : "/campaign/these_testing_times/content/house3.png",
+            "scenery" : 24
+        },
+
+        "house4":
+        {
+            "sprite" : "/campaign/these_testing_times/content/house4.png",
+            "scenery" : 24
+        },
+
+        "house5":
+        {
+            "sprite" : "/campaign/these_testing_times/content/house5.png",
+            "scenery" : 24
+        },
+
+        "table1":
+        {
+            "sprite" : "/campaign/these_testing_times/content/table1.png",
+            "scenery" : 24
+        },
+
+        "table2":
+        {
+            "sprite" : "/campaign/these_testing_times/content/table2.png",
+            "scenery" : 24
+        },
+
+        "table3":
+        {
+            "sprite" : "/campaign/these_testing_times/content/table3.png",
+            "scenery" : 24
+        },
+
+        "table4":
+        {
+            "sprite" : "/campaign/these_testing_times/content/table4.png",
+            "scenery" : 24
+        },
+
+        "fountain":
+        {
+            "sprite" : "/campaign/these_testing_times/content/fountain.png",
+            "scenery" : 24
+        },
+
         "torch":
         {
             "light": 
