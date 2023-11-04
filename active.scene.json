@@ -1,0 +1,21 @@
+{
+    "title": "These Testing Times",
+    "light": {
+        "ambient": "#999"
+    },
+    "palette": "/campaign/these_testing_times/these_testing_times.palette.json",
+    "grid": {
+        "type": "square",
+        "size": 24
+    },
+    "camera": {
+        "position": [
+            0,0
+        ],
+        "scale": [
+            2,2
+        ]
+    },
+    "geometry": [],
+    "actors": []
+}
