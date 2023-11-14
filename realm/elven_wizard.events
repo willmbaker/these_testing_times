@@ -4,3 +4,36 @@ gain_asset Wizard modifier
 take_note "The primary spellcaster of the group, providing a mix of offensive spells in combat, utility spells outside of combat, and high-level knowledge skills. A wizard usually has high Intelligence."
 change_portrait "" https://cdn.discordapp.com/attachments/1127886037423755315/1169111062285664328/willmbaker_Warhammer_Figurine_Elven_Wizard_9d5cf342-322b-4a6d-922c-142a8d8635d3.png?ex=65543686&is=6541c186&hm=68e316a24ff3009ccc0a257f071eb274ae962cc4dd669f0dc68d5713d80ebfe3&
 change_portrait https://cdn.discordapp.com/attachments/1127886037423755315/1169111062285664328/willmbaker_Warhammer_Figurine_Elven_Wizard_9d5cf342-322b-4a6d-922c-142a8d8635d3.png?ex=65543686&is=6541c186&hm=68e316a24ff3009ccc0a257f071eb274ae962cc4dd669f0dc68d5713d80ebfe3& https://cdn.discordapp.com/attachments/1127886037423755315/1169115237253922846/willmbaker_Elven_Wizard_28f211b8-49ab-46d5-a27a-dda0fd5f3c47.png?ex=65543a69&is=6541c569&hm=3769ad0e2cdc0416d2743ce744318678a852bb722db2a70f5ca47bb94ae171bb&
+change_attribute strength 11 10
+change_attribute dexterity 13 12
+change_attribute constitution 11 13
+change_attribute intelligence 11 17
+change_attribute wisdom 11 15
+change_attribute charisma 11 14
+change_asset Elf "Elf (High)"
+change_attribute hit_points 8 7
+advance_asset arcana 1
+advance_asset insight 1
+gain_asset Spellbook item
+gain_asset "Explorer's pack" item
+gain_asset "Arcane focus" item
+gain_asset Quarterstaff item
+advance_asset quarterstaff 1
+gain_asset Spellcasting modifier
+gain_asset "Arcane Recovery" modifier
+advance_asset wizard 1 #      -- 1st Level
+advance_asset wizard 1 #      -- 2nd Level
+gain_or_advance_asset "Arcane Tradition (Enchantment)" modifier
+gain_attribute hit_points 5
+advance_asset wizard 1 #      -- 3rd Level
+gain_attribute hit_points 6
+gain_asset "[Lightning Lure]" spell 0
+gain_asset "[Mage Hand]" spell 0
+gain_asset "[Minor Illusion]" spell 0
+gain_asset "[Mold Earth]" spell 0
+gain_asset "[Detect Magic]" spell 0
+gain_asset "[Witch Bolt]" spell 0
+gain_asset "[Cloud of Daggers]" spell 0
+gain_asset "[Hold Person]" spell 0
+gain_asset [Shatter] spell 0
+gain_asset "[Charm Person]" spell 0
