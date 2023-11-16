@@ -36,3 +36,24 @@ gain_attribute charisma 3
 gain_attribute dexterity 3
 gain_attribute constitution 2
 gain_attribute intelligence 1
+advance_asset cleric 1 #      -- 2nd Level
+gain_or_advance_asset "Channel Divinity" modifier
+gain_or_advance_asset "Turn Undead" modifier
+gain_attribute hit_points 6
+gain_asset "[Healing Word]" spell 0
+gain_asset "[Divine Favor]" spell
+gain_asset "[Shield of Faith]" spell
+advance_asset cleric 1 #      -- 3rd Level
+gain_attribute hit_points 8
+gain_asset "[Word of Radiance]" spell 0
+gain_asset "[Magic Weapon]" spell
+ready_asset inflict_wounds
+ready_asset healing_word
+ready_asset cure_wounds
+ready_asset word_of_radiance
+ready_asset sacred_flame
+gain_asset "[Guided Strike]" modifier
+unready_asset dwarf
+ready_asset turn_undead
+ready_asset guided_strike
+unready_asset cleric
