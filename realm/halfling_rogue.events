@@ -5,3 +5,41 @@ take_note "Skilled in stealth, detection, and disabling traps, the rogue often s
 change_portrait "" https://cdn.discordapp.com/attachments/1127886037423755315/1169111488066224221/willmbaker_Warhammer_Figurine_Halfling_Rogue_6fa825a4-8978-46eb-bc4f-3fae07f9731a.png?ex=655436eb&is=6541c1eb&hm=5432ac090d18252acea74ce905da9c29763a86e5aac04e30d3bdca76c73a34c7&
 change_portrait https://cdn.discordapp.com/attachments/1127886037423755315/1169111488066224221/willmbaker_Warhammer_Figurine_Halfling_Rogue_6fa825a4-8978-46eb-bc4f-3fae07f9731a.png?ex=655436eb&is=6541c1eb&hm=5432ac090d18252acea74ce905da9c29763a86e5aac04e30d3bdca76c73a34c7& https://cdn.discordapp.com/attachments/1127886037423755315/1169115258401595503/willmbaker_Halfling_Rogue_9e21ac70-8317-4b64-a20c-a5522d8f2ed2.png?ex=65543a6e&is=6541c56e&hm=836cdd036dce4eca8eff587115d6555579576f72dcd49084960bed27e705d4db&
 change_portrait https://cdn.discordapp.com/attachments/1127886037423755315/1169115258401595503/willmbaker_Halfling_Rogue_9e21ac70-8317-4b64-a20c-a5522d8f2ed2.png?ex=65543a6e&is=6541c56e&hm=836cdd036dce4eca8eff587115d6555579576f72dcd49084960bed27e705d4db& https://cdn.discordapp.com/attachments/1127886037423755315/1169219276977225748/willmbaker_Halfling_Rogue_d70fb440-edbc-4116-9c92-0dcc9b599a5e.png?ex=65549b4e&is=6542264e&hm=ffcf3cf6a6bb1a7a10b6f5fbf038e38ed17d008d970bc7b908d4e4c744565f89&
+change_attribute strength 11 10
+change_attribute dexterity 11 17
+change_attribute constitution 11 16
+change_attribute intelligence 11 13
+change_attribute wisdom 11 10
+change_attribute charisma 11 13
+change_attribute hit_points 8 11
+advance_asset acrobatics 1
+advance_asset deception 1
+advance_asset sleight_of_hand 1
+advance_asset stealth 1
+gain_asset "Leather armour" item
+gain_asset "2 dagger" item
+gain_asset "Thieves' tools" item
+gain_asset "Explorer's pack" item
+gain_asset Shortsword item
+gain_asset Rapier item
+advance_asset leather_armour 1
+advance_asset dagger 1
+advance_asset shortsword 1
+advance_asset rogue 1 #      -- 1st Level
+gain_or_advance_asset "Thieves' Cant" modifier
+gain_or_advance_asset "Sneak Attack" modifier
+gain_or_advance_asset Expertise modifier
+advance_asset thieves'_tools 2 0
+advance_asset stealth 1 0
+advance_asset rogue 1 #      -- 2nd Level
+gain_or_advance_asset "Cunning action" modifier
+gain_attribute hit_points 6
+advance_asset rogue 1 # -- 3rd Level
+gain_or_advance_asset "Roguish archetype (Thief)" modifier
+gain_attribute hit_points 11
+ready_asset halfling
+ready_asset dagger
+ready_asset shortsword
+ready_asset sneak_attack
+ready_asset stealth
+ready_asset deception
