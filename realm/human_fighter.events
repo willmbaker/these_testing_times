@@ -4,3 +4,38 @@ gain_asset Fighter modifier
 take_note "The classic frontline warrior, often serving as the party's main damage dealer and taking the brunt of enemy attacks. They are typically characterized by high Strength and Constitution scores."
 change_portrait "" https://media.discordapp.net/attachments/1127886037423755315/1169110692108972052/willmbaker_Warhammer_Figurine_Human_Fighter_ee7ac1fe-7bf6-44d1-9b15-db5fddec122d.png?ex=6554362e&is=6541c12e&hm=39ce64c84059ccc324aae761f384a9662f907bc0121585f524920aacc0330826&=&width=1116&height=1116
 change_portrait https://media.discordapp.net/attachments/1127886037423755315/1169110692108972052/willmbaker_Warhammer_Figurine_Human_Fighter_ee7ac1fe-7bf6-44d1-9b15-db5fddec122d.png?ex=6554362e&is=6541c12e&hm=39ce64c84059ccc324aae761f384a9662f907bc0121585f524920aacc0330826&=&width=1116&height=1116 https://cdn.discordapp.com/attachments/1127886037423755315/1169115204647395388/willmbaker_Human_Fighter_cfa8a678-8e3d-4245-a5cc-ee71ace0d28e.png?ex=65543a61&is=6541c561&hm=51c07fe6d78f2f587764e28fd48530c78a8e1dacb41fb6f47cf7155abdcaefb6&
+gain_attribute strength 6
+gain_attribute dexterity 3
+gain_attribute constitution 4
+lose_attribute intelligence 1
+lose_attribute wisdom 4
+change_attribute hit_points 8 13
+advance_asset athletics 1
+advance_asset intimidation 1
+gain_asset "Dungeoneer's pack" item
+gain_asset "2 handaxes" item
+gain_asset Longsword item
+gain_asset Shield item
+gain_asset "Chain mail" item
+advance_asset shield 1
+advance_asset chain_mail 1
+advance_asset fighter 1 #      -- 1st Level
+gain_or_advance_asset "Second Wind" modifier
+gain_or_advance_asset "Fighting Style" modifier
+change_asset "Fighting Style" "Fighting Style (Protection)"
+ready_asset chain_mail
+ready_asset longsword
+ready_asset shield
+advance_asset fighter 1 #      -- 2nd Level
+gain_or_advance_asset "Action Surge" modifier
+gain_attribute hit_points 12
+advance_asset fighter 1 #      -- 3rd Level
+gain_or_advance_asset "Martial Archetype (Eldritch Knight)" modifier
+gain_attribute hit_points 10
+ready_asset action_surge
+ready_asset second_wind
+gain_asset "[Booming Blade]" spell 0
+gain_asset "[Sword Burst]" spell 0
+gain_asset [Shield] spell 0
+gain_asset "[Disguise Self]" spell 0
+gain_asset "[Absorb Elements]" spell 0
