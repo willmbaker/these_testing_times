@@ -61,3 +61,6 @@ store_asset shield spellbook_of_courath_woodbane
 store_asset suggestion spellbook_of_courath_woodbane
 store_asset thunderwave spellbook_of_courath_woodbane
 store_asset witch_bolt spellbook_of_courath_woodbane
+gain_asset "Woodbane Staff" item
+ready_asset woodbane_staff
+activate_asset "Woodbane Staff" item 0

@@ -39,3 +39,5 @@ gain_asset "[Sword Burst]" spell 0
 gain_asset [Shield] spell 0
 gain_asset "[Disguise Self]" spell 0
 gain_asset "[Absorb Elements]" spell 0
+gain_asset Torch item
+ready_asset torch
