@@ -14,7 +14,6 @@ change_asset Elf "Elf (High)"
 change_attribute hit_points 8 7
 advance_asset arcana 1
 advance_asset insight 1
-gain_asset Spellbook item
 gain_asset "Explorer's pack" item
 gain_asset "Arcane focus" item
 gain_asset Quarterstaff item
@@ -37,3 +36,28 @@ gain_asset "[Cloud of Daggers]" spell 0
 gain_asset "[Hold Person]" spell 0
 gain_asset [Shatter] spell 0
 gain_asset "[Charm Person]" spell 0
+gain_asset "Spellbook of Courath Woodbane" spell
+lose_asset [Shatter] spell
+lose_asset "[Cloud of Daggers]" spell
+lose_asset "[Hold Person]" spell
+gain_asset [Thunderwave] spell 0
+gain_asset "[False Life]" spell 0
+gain_asset [Shield] spell 0
+gain_asset "[Disguise Self]" spell 0
+gain_asset "[Feather Fall]" spell 0
+gain_asset "[Hold Person]" spell 0
+gain_asset [Knock] spell 0
+gain_asset "[Scorching Ray]" spell 0
+gain_asset [Suggestion] spell 0
+store_asset charm_person spellbook_of_courath_woodbane
+store_asset detect_magic spellbook_of_courath_woodbane
+store_asset disguise_self spellbook_of_courath_woodbane
+store_asset false_life spellbook_of_courath_woodbane
+store_asset feather_fall spellbook_of_courath_woodbane
+store_asset hold_person spellbook_of_courath_woodbane
+store_asset knock spellbook_of_courath_woodbane
+store_asset scorching_ray spellbook_of_courath_woodbane
+store_asset shield spellbook_of_courath_woodbane
+store_asset suggestion spellbook_of_courath_woodbane
+store_asset thunderwave spellbook_of_courath_woodbane
+store_asset witch_bolt spellbook_of_courath_woodbane
