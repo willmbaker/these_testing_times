@@ -57,3 +57,5 @@ unready_asset dwarf
 ready_asset turn_undead
 ready_asset guided_strike
 unready_asset cleric
+change_asset Warhammer "The Hammer of Thror"
+advance_asset the_hammer_of_thror 1

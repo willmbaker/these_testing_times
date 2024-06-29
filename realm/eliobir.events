@@ -1,0 +1,32 @@
+change_title "" Eliobir
+gain_asset Fighter modifier
+advance_asset fighter 1 #      -- 1st Level
+gain_or_advance_asset "Fighting Style" modifier
+gain_or_advance_asset "Second Wind" modifier
+gain_attribute hit_points 10
+change_asset "Fighting Style" "Fighting Style (Two-Weapon Fighting)"
+advance_asset fighter 1 #      -- 2nd Level
+gain_or_advance_asset "Action Surge" modifier
+gain_attribute hit_points 10
+advance_asset fighter 1 #      -- 3rd Level
+gain_or_advance_asset "Martial Archetype" modifier
+gain_attribute hit_points 10
+change_asset "Martial Archetype" "Martial Archetype (Eldritch Knight)"
+gain_asset "[Spellcasting (Eldritch Knight)]" modifier
+gain_asset "[Weapon Bond]" modifier
+advance_asset fighter 1 #      -- 4th Level
+gain_attribute strength 1
+gain_attribute strength 1
+gain_attribute hit_points 10
+advance_asset fighter 1 #      -- 5th Level
+gain_attribute proficiency 1
+gain_or_advance_asset "Extra Attack" modifier
+gain_attribute hit_points 7
+advance_asset fighter 1 #      -- 6th Level
+gain_attribute strength 1
+gain_attribute strength 1
+gain_attribute hit_points 6
+advance_asset fighter 1 #      -- 7th Level
+gain_or_advance_asset "War Magic" modifier
+gain_attribute hit_points 6
+gain_asset Half-elf modifier
